@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FE37E242951B0C4005E46BB /* HappyKulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE37E232951B0C4005E46BB /* HappyKulApp.swift */; };
+		9FE37E262951B0C4005E46BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE37E252951B0C4005E46BB /* ContentView.swift */; };
+		9FE37E282951B0C5005E46BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE37E272951B0C5005E46BB /* Assets.xcassets */; };
+		9FE37E2B2951B0C5005E46BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE37E2A2951B0C5005E46BB /* Preview Assets.xcassets */; };
+		9FE37E352951B0C6005E46BB /* HappyKulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE37E342951B0C6005E46BB /* HappyKulTests.swift */; };
+		9FE37E3F2951B0C6005E46BB /* HappyKulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE37E3E2951B0C6005E46BB /* HappyKulUITests.swift */; };
+		9FE37E412951B0C6005E46BB /* HappyKulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE37E402951B0C6005E46BB /* HappyKulUITestsLaunchTests.swift */; };
+		9FE37E502951B2E0005E46BB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE37E4F2951B2E0005E46BB /* Storyboard.storyboard */; };
+		9FE37E532951CA7B005E46BB /* matterhorn-rus-by-me.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE37E522951CA7A005E46BB /* matterhorn-rus-by-me.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE37E312951B0C6005E46BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE37E182951B0C4005E46BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE37E1F2951B0C4005E46BB;
+			remoteInfo = HappyKul;
+		};
+		9FE37E3B2951B0C6005E46BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FE37E182951B0C4005E46BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE37E1F2951B0C4005E46BB;
+			remoteInfo = HappyKul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FE37E202951B0C4005E46BB /* HappyKul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyKul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE37E232951B0C4005E46BB /* HappyKulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyKulApp.swift; sourceTree = "<group>"; };
+		9FE37E252951B0C4005E46BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FE37E272951B0C5005E46BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE37E2A2951B0C5005E46BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FE37E302951B0C6005E46BB /* HappyKulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyKulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE37E342951B0C6005E46BB /* HappyKulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyKulTests.swift; sourceTree = "<group>"; };
+		9FE37E3A2951B0C6005E46BB /* HappyKulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyKulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE37E3E2951B0C6005E46BB /* HappyKulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyKulUITests.swift; sourceTree = "<group>"; };
+		9FE37E402951B0C6005E46BB /* HappyKulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyKulUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FE37E4F2951B2E0005E46BB /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		9FE37E522951CA7A005E46BB /* matterhorn-rus-by-me.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "matterhorn-rus-by-me.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE37E1D2951B0C4005E46BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E2D2951B0C6005E46BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E372951B0C6005E46BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FE37E172951B0C4005E46BB = {
+			isa = PBXGroup;
+			children = (
+				9FE37E222951B0C4005E46BB /* HappyKul */,
+				9FE37E332951B0C6005E46BB /* HappyKulTests */,
+				9FE37E3D2951B0C6005E46BB /* HappyKulUITests */,
+				9FE37E212951B0C4005E46BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE37E212951B0C4005E46BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E202951B0C4005E46BB /* HappyKul.app */,
+				9FE37E302951B0C6005E46BB /* HappyKulTests.xctest */,
+				9FE37E3A2951B0C6005E46BB /* HappyKulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE37E222951B0C4005E46BB /* HappyKul */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E512951CA39005E46BB /* Fonts */,
+				9FE37E232951B0C4005E46BB /* HappyKulApp.swift */,
+				9FE37E252951B0C4005E46BB /* ContentView.swift */,
+				9FE37E4F2951B2E0005E46BB /* Storyboard.storyboard */,
+				9FE37E272951B0C5005E46BB /* Assets.xcassets */,
+				9FE37E292951B0C5005E46BB /* Preview Content */,
+			);
+			path = HappyKul;
+			sourceTree = "<group>";
+		};
+		9FE37E292951B0C5005E46BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E2A2951B0C5005E46BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FE37E332951B0C6005E46BB /* HappyKulTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E342951B0C6005E46BB /* HappyKulTests.swift */,
+			);
+			path = HappyKulTests;
+			sourceTree = "<group>";
+		};
+		9FE37E3D2951B0C6005E46BB /* HappyKulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E3E2951B0C6005E46BB /* HappyKulUITests.swift */,
+				9FE37E402951B0C6005E46BB /* HappyKulUITestsLaunchTests.swift */,
+			);
+			path = HappyKulUITests;
+			sourceTree = "<group>";
+		};
+		9FE37E512951CA39005E46BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9FE37E522951CA7A005E46BB /* matterhorn-rus-by-me.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FE37E1F2951B0C4005E46BB /* HappyKul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE37E442951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKul" */;
+			buildPhases = (
+				9FE37E1C2951B0C4005E46BB /* Sources */,
+				9FE37E1D2951B0C4005E46BB /* Frameworks */,
+				9FE37E1E2951B0C4005E46BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyKul;
+			productName = HappyKul;
+			productReference = 9FE37E202951B0C4005E46BB /* HappyKul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FE37E2F2951B0C6005E46BB /* HappyKulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE37E472951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKulTests" */;
+			buildPhases = (
+				9FE37E2C2951B0C6005E46BB /* Sources */,
+				9FE37E2D2951B0C6005E46BB /* Frameworks */,
+				9FE37E2E2951B0C6005E46BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE37E322951B0C6005E46BB /* PBXTargetDependency */,
+			);
+			name = HappyKulTests;
+			productName = HappyKulTests;
+			productReference = 9FE37E302951B0C6005E46BB /* HappyKulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FE37E392951B0C6005E46BB /* HappyKulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE37E4A2951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKulUITests" */;
+			buildPhases = (
+				9FE37E362951B0C6005E46BB /* Sources */,
+				9FE37E372951B0C6005E46BB /* Frameworks */,
+				9FE37E382951B0C6005E46BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE37E3C2951B0C6005E46BB /* PBXTargetDependency */,
+			);
+			name = HappyKulUITests;
+			productName = HappyKulUITests;
+			productReference = 9FE37E3A2951B0C6005E46BB /* HappyKulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE37E182951B0C4005E46BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9FE37E1F2951B0C4005E46BB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					9FE37E2F2951B0C6005E46BB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9FE37E1F2951B0C4005E46BB;
+					};
+					9FE37E392951B0C6005E46BB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9FE37E1F2951B0C4005E46BB;
+					};
+				};
+			};
+			buildConfigurationList = 9FE37E1B2951B0C4005E46BB /* Build configuration list for PBXProject "HappyKul" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FE37E172951B0C4005E46BB;
+			productRefGroup = 9FE37E212951B0C4005E46BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE37E1F2951B0C4005E46BB /* HappyKul */,
+				9FE37E2F2951B0C6005E46BB /* HappyKulTests */,
+				9FE37E392951B0C6005E46BB /* HappyKulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE37E1E2951B0C4005E46BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE37E2B2951B0C5005E46BB /* Preview Assets.xcassets in Resources */,
+				9FE37E532951CA7B005E46BB /* matterhorn-rus-by-me.otf in Resources */,
+				9FE37E282951B0C5005E46BB /* Assets.xcassets in Resources */,
+				9FE37E502951B2E0005E46BB /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E2E2951B0C6005E46BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E382951B0C6005E46BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE37E1C2951B0C4005E46BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE37E262951B0C4005E46BB /* ContentView.swift in Sources */,
+				9FE37E242951B0C4005E46BB /* HappyKulApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E2C2951B0C6005E46BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE37E352951B0C6005E46BB /* HappyKulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE37E362951B0C6005E46BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE37E412951B0C6005E46BB /* HappyKulUITestsLaunchTests.swift in Sources */,
+				9FE37E3F2951B0C6005E46BB /* HappyKulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FE37E322951B0C6005E46BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE37E1F2951B0C4005E46BB /* HappyKul */;
+			targetProxy = 9FE37E312951B0C6005E46BB /* PBXContainerItemProxy */;
+		};
+		9FE37E3C2951B0C6005E46BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE37E1F2951B0C4005E46BB /* HappyKul */;
+			targetProxy = 9FE37E3B2951B0C6005E46BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FE37E422951B0C6005E46BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FE37E432951B0C6005E46BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FE37E452951B0C6005E46BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyKul/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FE37E462951B0C6005E46BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyKul/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FE37E482951B0C6005E46BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyKul.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyKul";
+			};
+			name = Debug;
+		};
+		9FE37E492951B0C6005E46BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyKul.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyKul";
+			};
+			name = Release;
+		};
+		9FE37E4B2951B0C6005E46BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyKul;
+			};
+			name = Debug;
+		};
+		9FE37E4C2951B0C6005E46BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = happy.HappyKulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyKul;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE37E1B2951B0C4005E46BB /* Build configuration list for PBXProject "HappyKul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE37E422951B0C6005E46BB /* Debug */,
+				9FE37E432951B0C6005E46BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE37E442951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE37E452951B0C6005E46BB /* Debug */,
+				9FE37E462951B0C6005E46BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE37E472951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE37E482951B0C6005E46BB /* Debug */,
+				9FE37E492951B0C6005E46BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE37E4A2951B0C6005E46BB /* Build configuration list for PBXNativeTarget "HappyKulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE37E4B2951B0C6005E46BB /* Debug */,
+				9FE37E4C2951B0C6005E46BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FE37E182951B0C4005E46BB /* Project object */;
+}
